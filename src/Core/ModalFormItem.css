@@ -1,0 +1,42 @@
+.modal-body-form-div {
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-text-div,
+.form-text-div p,
+.form-text-div div {
+  display: flex !important;
+  color: #566474;
+}
+
+.index-span {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #142683;
+  color: white !important;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-text-div div p span {
+  margin-left: 6px;
+  font-weight: 700;
+}
+
+.form-field-div input {
+  border: 1.5px solid #142683;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.form-field-div input:focus {
+  outline: none !important;
+}
